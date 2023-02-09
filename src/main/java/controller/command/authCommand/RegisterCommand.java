@@ -6,6 +6,7 @@ import exception.DaoOperationException;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import model.entity.User;
+import model.enums.UserRole;
 import org.apache.log4j.Logger;
 import service.UserService;
 import service.impl.UserServiceImpl;
@@ -65,6 +66,7 @@ public class RegisterCommand implements ICommand {
     String firstName = request.getParameter("firstName");
     String lastName = request.getParameter("lastName");
     User user = new User();
+    user.setRole(UserRole.USER);
     user.setPassword(password);
     user.setPhoneNumber(phoneNumber);
     user.setEmailAddress(email);

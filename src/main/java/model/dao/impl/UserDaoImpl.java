@@ -34,8 +34,8 @@ public class UserDaoImpl implements UserDao {
             "SET phone_number= ? , update_date= ? " +
             "WHERE id_user=?;";
     private static final  String INSERT_USER = "INSERT INTO  users (" +
-            " first_name, last_name, phone_number, email_address, create_date, update_date, password)" +
-            " VALUES (?, ?, ?, ?, ?, ?, ?);";
+            " first_name, last_name, phone_number, email_address, create_date, update_date, password, role)" +
+            " VALUES (?, ?, ?, ?, ?, ?, ?,'USER');";
 
     private final static Logger logger = Logger.getLogger(UserDaoImpl.class);
 
@@ -179,6 +179,7 @@ public class UserDaoImpl implements UserDao {
         preparedStatement.setTimestamp(5, user.getCreateDate());
         preparedStatement.setTimestamp(6,  user.getCreateDate());
         preparedStatement.setString(7,user.getPassword());
+
     }
 
     /**
