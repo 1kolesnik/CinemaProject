@@ -3920,3 +3920,234 @@ org.postgresql.util.PSQLException: ПОМИЛКА: сміття після па�
 2023-02-09 17:58:48 INFO  NotificationListener:66 - Session attribute removed: HttpSessionBindingEvent : jakarta.servlet.jsp.jstl.fmt.request.charset : utf-8
 2023-02-09 17:58:48 INFO  NotificationListener:66 - Session attribute removed: HttpSessionBindingEvent : user : User(id=16, firstName=Oleg, lastName=Yatsenko, password=25kolisnyk, phoneNumber=+380950136985, emailAddress=kolisnykk@gmail.com, createDate=2023-02-09 17:57:14.646489, updateDate=2023-02-09 17:57:14.646489, role=USER)
 2023-02-09 17:58:48 INFO  NotificationListener:66 - Session attribute removed: HttpSessionBindingEvent : pageLanguage : eng
+2023-02-10 19:49:22 INFO  NotificationListener:30 - Session attribute added: HttpSessionBindingEvent : pageLanguage : eng
+2023-02-10 19:49:22 INFO  DataSource:54 - Get connection from connection pool
+2023-02-10 19:49:23 INFO  LanguageDaoImpl:71 - Get language id by language name = eng
+2023-02-10 19:49:23 INFO  NotificationListener:30 - Session attribute added: HttpSessionBindingEvent : dbLanguage : 2
+2023-02-10 19:49:23 INFO  DataSource:54 - Get connection from connection pool
+2023-02-10 19:49:23 INFO  LanguageDaoImpl:515 - Get count of exist movies
+2023-02-10 19:49:23 INFO  DataSource:54 - Get connection from connection pool
+2023-02-10 19:49:23 INFO  LanguageDaoImpl:384 - Find exist movie by language id = 2
+2023-02-10 19:49:23 INFO  IndexPageCommand:61 - Index page command
+2023-02-10 19:49:24 INFO  NotificationListener:30 - Session attribute added: HttpSessionBindingEvent : jakarta.servlet.jsp.jstl.fmt.request.charset : utf-8
+2023-02-10 19:49:51 INFO  DataSource:54 - Get connection from connection pool
+2023-02-10 19:49:51 INFO  LanguageDaoImpl:515 - Get count of exist movies
+2023-02-10 19:49:51 INFO  DataSource:54 - Get connection from connection pool
+2023-02-10 19:49:51 INFO  LanguageDaoImpl:384 - Find exist movie by language id = 2
+2023-02-10 19:49:51 INFO  IndexPageCommand:61 - Index page command
+2023-02-10 19:49:51 INFO  NotificationListener:48 - :HttpSessionBindingEvent:jakarta.servlet.jsp.jstl.fmt.request.charset:utf-8
+2023-02-10 19:49:53 INFO  DataSource:54 - Get connection from connection pool
+2023-02-10 19:49:53 INFO  LanguageDaoImpl:515 - Get count of exist movies
+2023-02-10 19:49:53 INFO  DataSource:54 - Get connection from connection pool
+2023-02-10 19:49:53 INFO  LanguageDaoImpl:384 - Find exist movie by language id = 2
+2023-02-10 19:49:53 INFO  IndexPageCommand:61 - Index page command
+2023-02-10 19:49:53 INFO  NotificationListener:48 - :HttpSessionBindingEvent:jakarta.servlet.jsp.jstl.fmt.request.charset:utf-8
+2023-02-10 19:49:55 INFO  DataSource:54 - Get connection from connection pool
+2023-02-10 19:49:55 INFO  SessionDaoImpl:165 - Find session by movie id = 18
+2023-02-10 19:49:55 INFO  DataSource:54 - Get connection from connection pool
+2023-02-10 19:49:55 INFO  LanguageDaoImpl:353 - Find movie by id = 18 and language id= 2
+2023-02-10 19:49:55 INFO  SessionsPageCommand:39 - Session page command
+2023-02-10 19:49:56 INFO  NotificationListener:48 - :HttpSessionBindingEvent:jakarta.servlet.jsp.jstl.fmt.request.charset:utf-8
+2023-02-10 19:50:00 INFO  DataSource:54 - Get connection from connection pool
+2023-02-10 19:50:00 INFO  SeatDaoImpl:124 - Find busy seat by session id = 10
+2023-02-10 19:50:00 INFO  DataSource:54 - Get connection from connection pool
+2023-02-10 19:50:00 INFO  SeatDaoImpl:53 - Find seats by session id = 10
+2023-02-10 19:50:00 INFO  DataSource:54 - Get connection from connection pool
+2023-02-10 19:50:00 INFO  SessionDaoImpl:110 - Find session by id = 10 and language id = 2
+2023-02-10 19:50:00 INFO  SeatsPageCommand:32 - Seats page command
+2023-02-10 19:50:00 INFO  NotificationListener:48 - :HttpSessionBindingEvent:jakarta.servlet.jsp.jstl.fmt.request.charset:UTF-8
+2023-02-10 19:50:09 INFO  LogInPageCommand:18 - LogIn page command
+2023-02-10 19:50:09 INFO  NotificationListener:48 - :HttpSessionBindingEvent:jakarta.servlet.jsp.jstl.fmt.request.charset:UTF-8
+2023-02-10 20:20:15 INFO  NotificationListener:66 - Session attribute removed: HttpSessionBindingEvent : dbLanguage : 2
+2023-02-10 20:20:15 INFO  NotificationListener:66 - Session attribute removed: HttpSessionBindingEvent : jakarta.servlet.jsp.jstl.fmt.request.charset : UTF-8
+2023-02-10 20:20:15 INFO  NotificationListener:66 - Session attribute removed: HttpSessionBindingEvent : pageLanguage : eng
+2023-02-16 16:32:08 INFO  DataSource:54 - Get connection from connection pool
+2023-02-16 16:32:09 INFO  SeatDaoImpl:124 - Find busy seat by session id = 2
+2023-02-16 16:32:09 INFO  DataSource:54 - Get connection from connection pool
+2023-02-16 16:32:10 INFO  SeatDaoImpl:95 - Find seat by id = 1
+2023-02-16 16:32:10 INFO  DataSource:54 - Get connection from connection pool
+2023-02-16 16:32:10 INFO  SeatDaoImpl:193 - Check if seat is exist by seat id = 1 and session id = 2 
+2023-02-16 16:32:11 INFO  DataSource:54 - Get connection from connection pool
+2023-02-16 16:32:11 INFO  SeatDaoImpl:149 - Get number of busy seats by movie id = 2
+2023-02-16 16:32:11 INFO  DataSource:54 - Get connection from connection pool
+2023-02-16 16:32:11 INFO  SeatDaoImpl:53 - Find seats by session id = 3
+2023-02-16 16:32:12 INFO  DataSource:54 - Get connection from connection pool
+2023-02-16 16:32:12 INFO  PurchasedSeatDaoImpl:83 - Save ticket with purchased id =  2 for user with id = 2
+2023-02-16 16:32:12 INFO  PurchasedSeatDaoImpl:105 - Update available seat for session with id =  3
+2023-02-16 16:32:12 INFO  PurchasedSeatDaoImpl:53 - Save purchased seat with session id =  3, seatId = 1 for user with id = 2
+2023-02-16 16:32:12 INFO  DataSource:54 - Get connection from connection pool
+2023-02-16 16:32:12 INFO  TicketDaoImpl:46 - Find tickets by user id = 2 and language id = 1
+2023-02-16 16:32:12 INFO  DataSource:54 - Get connection from connection pool
+2023-02-16 16:32:13 INFO  TicketDaoImpl:46 - Find tickets by user id = 2 and language id = 2
+2023-02-16 16:32:13 INFO  DataSource:54 - Get connection from connection pool
+2023-02-16 16:32:13 INFO  LanguageDaoImpl:71 - Get language id by language name = eng
+2023-02-16 16:32:13 INFO  DataSource:54 - Get connection from connection pool
+2023-02-16 16:32:14 INFO  LanguageDaoImpl:45 - Find all languages
+2023-02-16 16:32:14 INFO  DataSource:54 - Get connection from connection pool
+2023-02-16 16:32:14 INFO  UserDaoImpl:141 - Error getting user by phone number = phone_number
+2023-02-16 16:32:14 INFO  DataSource:54 - Get connection from connection pool
+2023-02-16 16:32:15 INFO  UserDaoImpl:88 - Find user by id = 2
+2023-02-16 16:32:15 INFO  DataSource:54 - Get connection from connection pool
+2023-02-16 16:32:15 INFO  UserDaoImpl:202 - Update user's email address: email
+2023-02-16 16:32:15 INFO  DataSource:54 - Get connection from connection pool
+2023-02-16 16:32:15 INFO  UserDaoImpl:115 - Find user by email = email
+2023-02-16 16:32:16 INFO  DataSource:54 - Get connection from connection pool
+2023-02-16 16:32:16 INFO  DataSource:54 - Get connection from connection pool
+2023-02-16 16:32:16 INFO  UserDaoImpl:141 - Error getting user by phone number = phone2
+2023-02-16 16:32:16 INFO  DataSource:54 - Get connection from connection pool
+2023-02-16 16:32:17 INFO  UserDaoImpl:62 - Fin user by password = password and email = email_address
+2023-02-16 16:32:17 INFO  DataSource:54 - Get connection from connection pool
+2023-02-16 16:32:17 INFO  UserDaoImpl:115 - Find user by email = email_address
+2023-02-16 16:32:17 INFO  DataSource:54 - Get connection from connection pool
+2023-02-16 16:32:18 INFO  UserDaoImpl:252 - Error updating user contact information: User(id=2, firstName=First, lastName=Last, password=password2, phoneNumber=phone2, emailAddress=email2, createDate=2023-02-16 16:32:17.9184093, updateDate=2023-02-16 16:32:17.9184093, role=USER)
+2023-02-16 16:32:18 INFO  DataSource:54 - Get connection from connection pool
+2023-02-16 16:32:18 INFO  UserDaoImpl:141 - Error getting user by phone number = phone_number
+2023-02-16 16:32:18 INFO  DataSource:54 - Get connection from connection pool
+2023-02-16 16:32:18 INFO  UserDaoImpl:226 - Update user's phone number: phone
+2023-02-16 16:32:18 INFO  DataSource:54 - Get connection from connection pool
+2023-02-16 16:32:18 INFO  UserDaoImpl:141 - Error getting user by phone number = phone
+2023-02-16 16:32:19 INFO  DataSource:54 - Get connection from connection pool
+2023-02-16 16:32:19 INFO  SessionDaoImpl:110 - Find session by id = 2 and language id = 1
+2023-02-16 16:32:19 INFO  DataSource:54 - Get connection from connection pool
+2023-02-16 16:32:20 INFO  SessionDaoImpl:140 - Sort sessions by available_seats which have movie with id = 2
+2023-02-16 16:32:20 INFO  DataSource:54 - Get connection from connection pool
+2023-02-16 16:32:20 INFO  SessionDaoImpl:67 - Update session
+2023-02-16 16:32:20 INFO  DataSource:54 - Get connection from connection pool
+2023-02-16 16:32:20 INFO  SessionDaoImpl:110 - Find session by id = 2 and language id = 1
+2023-02-16 16:32:21 INFO  DataSource:54 - Get connection from connection pool
+2023-02-16 16:32:21 INFO  SessionDaoImpl:46 - Save new session
+2023-02-16 16:32:21 INFO  DataSource:54 - Get connection from connection pool
+2023-02-16 16:32:21 INFO  SessionDaoImpl:165 - Find session by movie id = 2
+2023-02-16 16:32:21 INFO  DataSource:54 - Get connection from connection pool
+2023-02-16 16:32:21 INFO  SessionDaoImpl:165 - Find session by movie id = 2
+2023-02-16 16:32:22 INFO  DataSource:54 - Get connection from connection pool
+2023-02-16 16:32:22 INFO  LanguageDaoImpl:122 - Save movie description for movie with id = 1
+2023-02-16 16:32:22 INFO  LanguageDaoImpl:92 - Save new movie
+2023-02-16 16:32:22 INFO  DataSource:54 - Get connection from connection pool
+2023-02-16 16:32:22 INFO  LanguageDaoImpl:293 - Find movie by language id = 2 and title = title
+2023-02-16 16:32:22 INFO  DataSource:54 - Get connection from connection pool
+2023-02-16 16:32:23 INFO  LanguageDaoImpl:384 - Find exist movie by language id = 1
+2023-02-16 16:32:23 INFO  DataSource:54 - Get connection from connection pool
+2023-02-16 16:32:23 INFO  LanguageDaoImpl:353 - Find movie by id = 2 and language id= 1
+2023-02-16 16:32:24 INFO  DataSource:54 - Get connection from connection pool
+2023-02-16 16:32:24 INFO  LanguageDaoImpl:440 - Find movie which exist today by language id = 1 and title = title1
+2023-02-16 16:32:24 INFO  DataSource:54 - Get connection from connection pool
+2023-02-16 16:32:24 INFO  LanguageDaoImpl:293 - Find movie by language id = 1 and title = title1
+2023-02-16 16:32:25 INFO  DataSource:54 - Get connection from connection pool
+2023-02-16 16:32:25 INFO  LanguageDaoImpl:182 - Update movie description for movie with id = 2
+2023-02-16 16:32:25 INFO  LanguageDaoImpl:147 - Update movie
+2023-02-16 16:32:25 INFO  DataSource:54 - Get connection from connection pool
+2023-02-16 16:32:25 INFO  LanguageDaoImpl:293 - Find movie by language id = 2 and title = title
+2023-02-16 16:32:25 INFO  DataSource:54 - Get connection from connection pool
+2023-02-16 16:32:25 INFO  LanguageDaoImpl:266 - Find all movie by language id - 1
+2023-02-16 16:32:26 INFO  DataSource:54 - Get connection from connection pool
+2023-02-16 16:32:26 INFO  LanguageDaoImpl:515 - Get count of exist movies
+2023-02-16 16:32:26 INFO  DataSource:54 - Get connection from connection pool
+2023-02-16 16:32:27 INFO  LanguageDaoImpl:411 - Find movie which exist today by language id = 1
+2023-02-16 16:32:27 INFO  DataSource:54 - Get connection from connection pool
+2023-02-16 16:32:27 INFO  LanguageDaoImpl:487 - Get poster by movie id = 2 
+2023-02-16 16:32:28 INFO  DataSource:54 - Get connection from connection pool
+2023-02-16 16:32:28 INFO  LanguageDaoImpl:543 - Get count of exist movies which have sessions today
+2023-02-16 16:32:28 INFO  DataSource:54 - Get connection from connection pool
+2023-02-16 16:32:28 INFO  LanguageDaoImpl:319 - Find movie by id = 2
+2023-02-16 16:32:29 INFO  DataSource:54 - Get connection from connection pool
+2023-02-16 16:32:29 INFO  LanguageDaoImpl:244 - Delete movie with id = 2
+2023-02-16 16:32:29 INFO  DataSource:54 - Get connection from connection pool
+2023-02-16 16:32:29 INFO  LanguageDaoImpl:319 - Find movie by id = 2
+2023-02-16 16:32:29 INFO  DataSource:54 - Get connection from connection pool
+2023-02-16 16:32:29 INFO  LanguageDaoImpl:575 - Get count of exist movies which have sessions today by title = title1 and language = 1
+2023-02-16 16:34:33 INFO  DataSource:53 - Get connection from connection pool
+2023-02-16 16:34:33 INFO  SeatDaoImpl:124 - Find busy seat by session id = 2
+2023-02-16 16:34:34 INFO  DataSource:53 - Get connection from connection pool
+2023-02-16 16:34:34 INFO  SeatDaoImpl:95 - Find seat by id = 1
+2023-02-16 16:34:34 INFO  DataSource:53 - Get connection from connection pool
+2023-02-16 16:34:34 INFO  SeatDaoImpl:193 - Check if seat is exist by seat id = 1 and session id = 2 
+2023-02-16 16:34:35 INFO  DataSource:53 - Get connection from connection pool
+2023-02-16 16:34:35 INFO  SeatDaoImpl:149 - Get number of busy seats by movie id = 2
+2023-02-16 16:34:35 INFO  DataSource:53 - Get connection from connection pool
+2023-02-16 16:34:35 INFO  SeatDaoImpl:53 - Find seats by session id = 3
+2023-02-16 16:34:36 INFO  DataSource:53 - Get connection from connection pool
+2023-02-16 16:34:36 INFO  PurchasedSeatDaoImpl:83 - Save ticket with purchased id =  2 for user with id = 2
+2023-02-16 16:34:36 INFO  PurchasedSeatDaoImpl:105 - Update available seat for session with id =  3
+2023-02-16 16:34:36 INFO  PurchasedSeatDaoImpl:53 - Save purchased seat with session id =  3, seatId = 1 for user with id = 2
+2023-02-16 16:34:36 INFO  DataSource:53 - Get connection from connection pool
+2023-02-16 16:34:36 INFO  TicketDaoImpl:46 - Find tickets by user id = 2 and language id = 1
+2023-02-16 16:34:37 INFO  DataSource:53 - Get connection from connection pool
+2023-02-16 16:34:37 INFO  TicketDaoImpl:46 - Find tickets by user id = 2 and language id = 2
+2023-02-16 16:34:37 INFO  DataSource:53 - Get connection from connection pool
+2023-02-16 16:34:37 INFO  LanguageDaoImpl:71 - Get language id by language name = eng
+2023-02-16 16:34:38 INFO  DataSource:53 - Get connection from connection pool
+2023-02-16 16:34:38 INFO  LanguageDaoImpl:45 - Find all languages
+2023-02-16 16:34:38 INFO  DataSource:53 - Get connection from connection pool
+2023-02-16 16:34:38 INFO  UserDaoImpl:141 - Error getting user by phone number = phone_number
+2023-02-16 16:34:39 INFO  DataSource:53 - Get connection from connection pool
+2023-02-16 16:34:39 INFO  UserDaoImpl:88 - Find user by id = 2
+2023-02-16 16:34:39 INFO  DataSource:53 - Get connection from connection pool
+2023-02-16 16:34:39 INFO  UserDaoImpl:202 - Update user's email address: email
+2023-02-16 16:34:39 INFO  DataSource:53 - Get connection from connection pool
+2023-02-16 16:34:39 INFO  UserDaoImpl:115 - Find user by email = email
+2023-02-16 16:34:40 INFO  DataSource:53 - Get connection from connection pool
+2023-02-16 16:34:40 INFO  DataSource:53 - Get connection from connection pool
+2023-02-16 16:34:40 INFO  UserDaoImpl:141 - Error getting user by phone number = phone2
+2023-02-16 16:34:40 INFO  DataSource:53 - Get connection from connection pool
+2023-02-16 16:34:41 INFO  UserDaoImpl:62 - Fin user by password = password and email = email_address
+2023-02-16 16:34:41 INFO  DataSource:53 - Get connection from connection pool
+2023-02-16 16:34:41 INFO  UserDaoImpl:115 - Find user by email = email_address
+2023-02-16 16:34:42 INFO  DataSource:53 - Get connection from connection pool
+2023-02-16 16:34:42 INFO  UserDaoImpl:252 - Error updating user contact information: User(id=2, firstName=First, lastName=Last, password=password2, phoneNumber=phone2, emailAddress=email2, createDate=2023-02-16 16:34:42.0848515, updateDate=2023-02-16 16:34:42.0858505, role=USER)
+2023-02-16 16:34:42 INFO  DataSource:53 - Get connection from connection pool
+2023-02-16 16:34:42 INFO  UserDaoImpl:141 - Error getting user by phone number = phone_number
+2023-02-16 16:34:42 INFO  DataSource:53 - Get connection from connection pool
+2023-02-16 16:34:43 INFO  UserDaoImpl:226 - Update user's phone number: phone
+2023-02-16 16:34:43 INFO  DataSource:53 - Get connection from connection pool
+2023-02-16 16:34:43 INFO  UserDaoImpl:141 - Error getting user by phone number = phone
+2023-02-16 16:34:43 INFO  DataSource:53 - Get connection from connection pool
+2023-02-16 16:34:43 INFO  SessionDaoImpl:110 - Find session by id = 2 and language id = 1
+2023-02-16 16:34:43 INFO  DataSource:53 - Get connection from connection pool
+2023-02-16 16:34:44 INFO  SessionDaoImpl:140 - Sort sessions by available_seats which have movie with id = 2
+2023-02-16 16:34:44 INFO  DataSource:53 - Get connection from connection pool
+2023-02-16 16:34:44 INFO  SessionDaoImpl:67 - Update session
+2023-02-16 16:34:44 INFO  DataSource:53 - Get connection from connection pool
+2023-02-16 16:34:44 INFO  SessionDaoImpl:110 - Find session by id = 2 and language id = 1
+2023-02-16 16:34:45 INFO  DataSource:53 - Get connection from connection pool
+2023-02-16 16:34:45 INFO  SessionDaoImpl:46 - Save new session
+2023-02-16 16:34:45 INFO  DataSource:53 - Get connection from connection pool
+2023-02-16 16:34:45 INFO  SessionDaoImpl:165 - Find session by movie id = 2
+2023-02-16 16:34:45 INFO  DataSource:53 - Get connection from connection pool
+2023-02-16 16:34:45 INFO  SessionDaoImpl:165 - Find session by movie id = 2
+2023-02-16 16:34:46 INFO  DataSource:53 - Get connection from connection pool
+2023-02-16 16:34:46 INFO  LanguageDaoImpl:122 - Save movie description for movie with id = 1
+2023-02-16 16:34:46 INFO  LanguageDaoImpl:92 - Save new movie
+2023-02-16 16:34:46 INFO  DataSource:53 - Get connection from connection pool
+2023-02-16 16:34:46 INFO  LanguageDaoImpl:293 - Find movie by language id = 2 and title = title
+2023-02-16 16:34:46 INFO  DataSource:53 - Get connection from connection pool
+2023-02-16 16:34:46 INFO  LanguageDaoImpl:384 - Find exist movie by language id = 1
+2023-02-16 16:34:47 INFO  DataSource:53 - Get connection from connection pool
+2023-02-16 16:34:47 INFO  LanguageDaoImpl:353 - Find movie by id = 2 and language id= 1
+2023-02-16 16:34:47 INFO  DataSource:53 - Get connection from connection pool
+2023-02-16 16:34:47 INFO  LanguageDaoImpl:440 - Find movie which exist today by language id = 1 and title = title1
+2023-02-16 16:34:48 INFO  DataSource:53 - Get connection from connection pool
+2023-02-16 16:34:48 INFO  LanguageDaoImpl:293 - Find movie by language id = 1 and title = title1
+2023-02-16 16:34:48 INFO  DataSource:53 - Get connection from connection pool
+2023-02-16 16:34:48 INFO  LanguageDaoImpl:182 - Update movie description for movie with id = 2
+2023-02-16 16:34:48 INFO  LanguageDaoImpl:147 - Update movie
+2023-02-16 16:34:48 INFO  DataSource:53 - Get connection from connection pool
+2023-02-16 16:34:48 INFO  LanguageDaoImpl:293 - Find movie by language id = 2 and title = title
+2023-02-16 16:34:49 INFO  DataSource:53 - Get connection from connection pool
+2023-02-16 16:34:49 INFO  LanguageDaoImpl:266 - Find all movie by language id - 1
+2023-02-16 16:34:49 INFO  DataSource:53 - Get connection from connection pool
+2023-02-16 16:34:49 INFO  LanguageDaoImpl:515 - Get count of exist movies
+2023-02-16 16:34:50 INFO  DataSource:53 - Get connection from connection pool
+2023-02-16 16:34:50 INFO  LanguageDaoImpl:411 - Find movie which exist today by language id = 1
+2023-02-16 16:34:50 INFO  DataSource:53 - Get connection from connection pool
+2023-02-16 16:34:50 INFO  LanguageDaoImpl:487 - Get poster by movie id = 2 
+2023-02-16 16:34:51 INFO  DataSource:53 - Get connection from connection pool
+2023-02-16 16:34:51 INFO  LanguageDaoImpl:543 - Get count of exist movies which have sessions today
+2023-02-16 16:34:51 INFO  DataSource:53 - Get connection from connection pool
+2023-02-16 16:34:51 INFO  LanguageDaoImpl:319 - Find movie by id = 2
+2023-02-16 16:34:51 INFO  DataSource:53 - Get connection from connection pool
+2023-02-16 16:34:52 INFO  LanguageDaoImpl:244 - Delete movie with id = 2
+2023-02-16 16:34:52 INFO  DataSource:53 - Get connection from connection pool
+2023-02-16 16:34:52 INFO  LanguageDaoImpl:319 - Find movie by id = 2
+2023-02-16 16:34:52 INFO  DataSource:53 - Get connection from connection pool
+2023-02-16 16:34:52 INFO  LanguageDaoImpl:575 - Get count of exist movies which have sessions today by title = title1 and language = 1
